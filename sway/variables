@@ -1,0 +1,35 @@
+################################################################################
+#
+# Variables
+#
+################################################################################
+
+
+set $key-alt Mod1
+set $key-super Mod4
+set $mod $key-super
+set $menu wofi
+
+# Home row direction keys, like vim
+set $left h
+set $down j
+set $up k
+set $right l
+
+# Preferred terminal emulator
+set $term kitty
+
+# Preferred application launcher
+# Note: pass the final command to swaymsg so that the resulting window can be opened
+# on the original workspace that the command was run on.
+#set $menu wofi --show=drun | swaymsg exec --
+
+# Preferred screen locker
+set $lock swaylock --daemonize
+
+# Workspaces
+set $workspace_www 1:Firefox
+set $workspace_editor 3:Code
+set $workspace_terminals 2:Term
+set $workspace_discord 9:Discord
+set $workspace_mail 10:Messages

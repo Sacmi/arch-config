@@ -1,0 +1,14 @@
+font pango:Cantarell 14px
+smart_gaps on
+gaps inner 8 
+
+default_border pixel 3
+smart_borders on
+
+# Default window rules
+#
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="dialog"] floating enable
+for_window [window_type="dialog"] floating enable
+for_window [app_id="lximage-qt"] floating enable
